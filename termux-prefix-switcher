@@ -13,9 +13,9 @@ esac
 
 unset LD_PRELOAD
 
-BOOTSTRAP_ARM="https://github.com/termux/termux-packages/releases/download/bootstrap-2021.04.13-r1/bootstrap-arm.zip"
+BOOTSTRAP_ARM="https://github.com/termux/termux-packages/releases/download/bootstrap-2021.05.16-r1/bootstrap-arm.zip"
 
-BOOTSTRAP_INTEL="https://github.com/termux/termux-packages/releases/download/bootstrap-2021.04.13-r1/bootstrap-i686.zip"
+BOOTSTRAP_INTEL="https://github.com/termux/termux-packages/releases/download/bootstrap-2021.05.16-r1/bootstrap-i686.zip"
 
 TEMPDIR="$(mktemp -d)"
 
@@ -30,7 +30,7 @@ print-help(){
 
 	NOTE: Switching to 32-bit will not install packages automatically so you have to install them again if possible
 
-	Termux Prefix Switcher (version 1.1)
+	Termux Prefix Switcher (version 1.2)
 	EOM
 }
 
