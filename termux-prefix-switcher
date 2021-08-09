@@ -13,9 +13,9 @@ esac
 
 unset LD_PRELOAD
 
-BOOTSTRAP_ARM="https://github.com/termux/termux-packages/releases/download/bootstrap-2021.06.30-r1/bootstrap-arm.zip"
+BOOTSTRAP_ARM="https://github.com/termux/termux-packages/releases/latest/download/bootstrap-arm.zip"
 
-BOOTSTRAP_INTEL="https://github.com/termux/termux-packages/releases/download/bootstrap-2021.06.30-r1/bootstrap-i686.zip"
+BOOTSTRAP_INTEL="https://github.com/termux/termux-packages/releases/latest/download/bootstrap-i686.zip"
 
 TEMPDIR="$(mktemp -d)"
 
